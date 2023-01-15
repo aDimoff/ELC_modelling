@@ -1,0 +1,41 @@
+  3  3.00000000            mass of star 1 in solar masses
+  4  0.76562399            mass of star 2 in solar masses
+  5  100.00000000          radius of star 1 in solar radii
+  6  1.30000000            radius of star 2 in solar radii
+  7  0.915189              log(g1) cgs
+  8  0.000000              log(g2) cgs
+  9  0.000004              density of star 1 in g/cc
+ 10  0.491305              density of star 2 in g/cc
+ 11  0.00000000            fill1, Roche lobe filling factor of star 1
+ 12  0.00000000            fill2, Roche lobe filling factor of star 2
+ 13  3.53200               K-velocity star 1 in km/sec
+ 14  13.83969              K-velocity star 2 in km/sec
+ 15  0.96524               V1_rot*sin(i) of star 1 in km/sec
+ 16  0.01255               V1_rot*sin(i) of star 2 in km/sec
+ 17  0.96524               V1_rot*sin(i) of star 1, scaled by omega in km/sec
+ 18  0.01255               V1_rot*sin(i) of star 2, scaled by omega in km/sec
+ 19  0.000                 temperature spot 1, star 1 (K)
+ 20  0.000                 temperature spot 2, star 1 (K)
+ 21  0.000                 temperature spot 1, star 2 (K)
+ 22  0.000                 temperature spot 2, star 2 (K)
+ 23  0.000                 temperature spot 1, disk (K)
+ 24  0.000                 temperature spot 2, disk (K)
+ 25  0.0000                disk radius in solar radii
+ 26  0.0000                disk thickness in solar radii
+ 27  0.00000               duration of X-ray eclipse in degrees
+ 28  8.888653              impact parameter of primary transit
+ 29  0.000000              duration of primary transit in days
+ 30  0.00000               depth of primary transit
+ 31  0.000000              duration of primary transit in days, alternate formula
+ 32  254911.47701          mass of star 2 in Earth masses
+ 33  141.79928             radius of star 2 in Earth radii
+ 34  4557.5780786234       period of binary in days
+ 35  8.36956290            semimajor axis of binary orbit in AU
+ 36  0.0000003             eccentricity of binary orbit
+ 37  0.00000               argument of periastron of binary orbit in degrees
+ 38  60.403452             inclination of binary orbit in degrees
+ 39  0.0000                nodal angle of binary orbit in degrees
+ 40  0.0000000             T_conj of binary orbit
+ 41  49921.5280861         T_peri of binary orbit
+ 42  0.0                   mutual inclination of binary orbit in degrees
+ 43  2                     number of bodies

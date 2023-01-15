@@ -1,0 +1,24 @@
+## List (1) of stars for Annika to search for literature RVs (thank you!): Heliocentric Julian Date (HJD), Heliocentric RV (RV), RV_err (err) where available 
+
+## Heliocentric RV is the one usually published, unless otherwise stated. If no date is associated with the radial velocity (for example, from Gaia) please do not include it in the file. 
+
+## For each star, please create a text file (.txt, .dat, ...) with 3 columns: HJD, RV, err. Column titles are not necessary, and you don't have to be too creative with the file names either. For example: 'HD104979_RVs.dat'
+
+HD 104979
+HD 101079
+V* V826 Her
+PV UMa
+V1260 Ori
+TY UMi
+OW Gem
+BD+233093
+HD 264151
+HD 283112
+
+HD 215336
+CL Cam
+V1139 Tau
+HD 16173
+56 UMa
+HR Peg
+V530 Lyr

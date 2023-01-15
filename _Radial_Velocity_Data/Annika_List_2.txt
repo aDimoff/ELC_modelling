@@ -1,0 +1,44 @@
+## List (2) of stars for Annika to search for literature RVs (thank you again!): Heliocentric Julian Date, Heliocentric RV, RV_err where available 
+
+## Heliocentric RV is the one usually published, unless otherwise stated. If no date is associated with the radial velocity (for example, from Gaia) please do not include it in the list. 
+
+HD 32923
+S Uma 1
+R Cam
+HD 146622
+HD 65854
+V* OX Ser
+V* EU Dra
+V* CD CVn
+V* V395 Cyg 
+HD 48767 A
+HD 48767 B
+HD 80492
+V* PX Dra
+HD 110025
+HD 50688
+HD 204751
+HD 95363
+HD 30339
+HD 106678
+BD+48 1048
+HD 108675
+HD 116378
+HD 117123
+BD+79 230
+HD 187216
+BD+16_1847
+V* TW Cnc
+HD 215686 
+HD 30738
+HD 26395
+HD 46148
+HD 50720
+HD 91498
+HD 89240
+HD 39251
+RX J0816.4+7930
+SDSS J105730.98+474614.4
+HD 143993
+V* V2012 Cyg
+HD 233158
