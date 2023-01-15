@@ -18,7 +18,7 @@
 !
 0                        iatm (0 for black body)
 1 1 1 1 1 1 1 1          icnU,icnB,icnV,icnR,icnI,icnJ,icnH,icnK
-1                        iRVfilt
+3                        iRVfilt
   1                      ilaw (1=lin., 2=log, 3=sqrt, 4=quad, 5=Kipping quad)
   3600.0000              central wavelength for filter 1 when iatm=0
   4500.0000              central wavelength for filter 2 when iatm=0
@@ -126,23 +126,23 @@
 !
 !  Binary orbit parameters
 !
- 16581.426677197083336   Period (days), tag pe
- 68000.069476918710279   T0 (time of periastron passage), tag T0
+ 16571.278236913833098   Period (days), tag pe
+ 68000.126469182461733   T0 (time of periastron passage), tag T0
      0.000000000000000   Tconj (time of primary eclipse), tag Tc
      0.0000000000000     PbpTc (period + Tconj for binary), tag bp
      0.0000000000000     PbmTc (period - Tconj for binary), tag bm
  -99.000000000000        binqTc (slope in P-Tc plane for binary), tag bq
        0.000000000000    Tbinoff (offset in P-Tc plane for binary), tag bt
-0.5998980643393          eccentricity, tag ec
+0.5897527496646          eccentricity, tag ec
   286.0000000000000      argument of periaston in degrees, tag ar
  0.00000000000000000     e*cos(omega), tag oc
  0.00000000000000000     e*sin(omega), tag os
  0.00000000000000000     sqrt(e)*cos(omega), tag bc
  0.00000000000000000     sqrt(e)*sin(omega), tag bs
    68.4034521579999932   finc (inclination in degrees), tag in
-   0.0000000000          Omega_bin (nodal angle of binary in degrees), tag Ob
-    5.0100000000000      primK (K-velocity of star 1 in km/sec), tag pk
- 4974.104290             separ (semimajor axis in solar radii), tag se
+  60.0000000000          Omega_bin (nodal angle of binary in degrees), tag Ob
+    3.8317874627885      primK (K-velocity of star 1 in km/sec), tag pk
+ 4673.862793             separ (semimajor axis in solar radii), tag se
     0.130000             gamma
  0.0000000               ecosw (phase difference between eclipses) tag dp
 !
@@ -157,7 +157,7 @@
    300.0000000000000     primrad (star 1 radius in solar radii), tag pr
 0.0000000000000000       frac1 (fractional radius star 1:  R_1/a), tag q1
 0.0000000000000          radfill1 (set to use fill1 in terms of R_eff)
-   4.29999999999999982   primmass (star 1 mass in solar masses), tag pm
+   0.00000000000000000   primmass (star 1 mass in solar masses), tag pm
   68.4034522             axis_I1 (inclination of rotation axis if ialign>0), tag ai
    0.0000000             axis_beta1 (angle of rotation axis wrt orbit if ialign>0), tag ab
  0.00000000  0.00000000  limb darkening coefficients, filter 1, tag x1, y1
@@ -199,15 +199,15 @@
 0.0001000000000          fill2, tag f2
 0.0000000000000          fillsum, tag sf
  0.0000000000000         filldiff, tag sd
-  1.3000000000000        secrad (secondary star radius in solar radii), tag sr
+  0.1000000000000        secrad (secondary star radius in solar radii), tag sr
 0.0000000000000000       frac2 (fractional radius star 2:  R_2/a), tag q2
-   230.7692307692308     ratrad (ratio of star 1 radius to star 2 radius),  tag ra
+  3000.0000000000000     ratrad (ratio of star 1 radius to star 2 radius),  tag ra
      0.0000000000000     radsum (sum of radii in solar), tag rs
      0.0000000000000     raddiff (R_1 - R_2  in solar), tag rd
 0.000000000000000        fracsum ((R_1 + R_2)/a), tag fs
 0.000000000000000        fracdiff ((R_1 - R_2)/a), tag fd
 0.0000000000000          radfill2 (set to use fill2 in terms of R_eff)
-     0.39675116636564389 Q (M_2/M_1), tag ma
+     0.30417902024493498 Q (M_2/M_1), tag ma
    0.000000000000000     secmass (star 2 mass in solar masses), tag sm
    0.000000000000000     masssum (sum of masses in solar),  tag ms
    0.000000000000000     massdiff (M_1 - M_2 in solar), tag md

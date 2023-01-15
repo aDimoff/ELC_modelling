@@ -19,7 +19,7 @@
 !
 0                        iatm (0 for black body)
 1 1 1 1 1 1 1 1          icnU,icnB,icnV,icnR,icnI,icnJ,icnH,icnK
-1                        iRVfilt
+3                        iRVfilt
   1                      ilaw (1=lin., 2=log, 3=sqrt, 4=quad, 5=Kipping quad)
   3600.0000              central wavelength for filter 1 when iatm=0
   4500.0000              central wavelength for filter 2 when iatm=0
@@ -127,23 +127,23 @@
 !
 !  Binary orbit parameters
 !
- 16581.426677197083336   Period (days), tag pe
- 68000.069476918710279   T0 (time of periastron passage), tag T0
+ 16571.278236913833098   Period (days), tag pe
+ 68000.126469182461733   T0 (time of periastron passage), tag T0
      0.000000000000000   Tconj (time of primary eclipse), tag Tc
      0.0000000000000     PbpTc (period + Tconj for binary), tag bp
      0.0000000000000     PbmTc (period - Tconj for binary), tag bm
  -99.000000000000        binqTc (slope in P-Tc plane for binary), tag bq
        0.000000000000    Tbinoff (offset in P-Tc plane for binary), tag bt
- 0.599898064339          eccentricity, tag ec
+ 0.589752749665          eccentricity, tag ec
   286.0000000000000      argument of periaston in degrees, tag ar
  0.00000000000000000     e*cos(omega), tag oc
  0.00000000000000000     e*sin(omega), tag os
  0.00000000000000000     sqrt(e)*cos(omega), tag bc
  0.00000000000000000     sqrt(e)*sin(omega), tag bs
    68.4034521579999932   finc (inclination in degrees), tag in
-   0.0000000000          Omega_bin (nodal angle of binary in degrees), tag Ob
-    5.0100000000000      primK (K-velocity of star 1 in km/sec), tag pk
- 4974.010381             separ (semimajor axis in solar radii), tag se
+  60.0000000000          Omega_bin (nodal angle of binary in degrees), tag Ob
+    3.8317874627885      primK (K-velocity of star 1 in km/sec), tag pk
+ 4687.592349             separ (semimajor axis in solar radii), tag se
     0.130000             gamma
  0.0000000               ecosw (phase difference between eclipses) tag dp
 !
@@ -158,7 +158,7 @@
    300.0000000000000     primrad (star 1 radius in solar radii), tag pr
  0.000000000000000       frac1 (fractional radius star 1:  R_1/a), tag q1
  0.000000000000          radfill1 (set to use fill1 in terms of R_eff)
-   4.29999999999999982   primmass (star 1 mass in solar masses), tag pm
+   0.00000000000000000   primmass (star 1 mass in solar masses), tag pm
   68.4034522             axis_I1 (inclination of rotation axis if ialign>0), tag ai
    0.0000000             axis_beta1 (angle of rotation axis wrt orbit if ialign>0), tag ab
  0.00000000  0.00000000  limb darkening coefficients, filter 1, tag x1, y1
@@ -200,15 +200,15 @@
  0.000100000000          fill2, tag f2
  0.000000000000          fillsum, tag sf
  0.0000000000000         filldiff, tag sd
-  1.3000000000000        secrad (secondary star radius in solar radii), tag sr
+  0.1000000000000        secrad (secondary star radius in solar radii), tag sr
  0.000000000000000       frac2 (fractional radius star 2:  R_2/a), tag q2
-   230.7692307692308     ratrad (ratio of star 1 radius to star 2 radius),  tag ra
+  3000.0000000000000     ratrad (ratio of star 1 radius to star 2 radius),  tag ra
      0.0000000000000     radsum (sum of radii in solar), tag rs
      0.0000000000000     raddiff (R_1 - R_2  in solar), tag rd
  0.00000000000000        fracsum ((R_1 + R_2)/a), tag fs
  0.00000000000000        fracdiff ((R_1 - R_2)/a), tag fd
  0.000000000000          radfill2 (set to use fill2 in terms of R_eff)
-     0.39674789229404173 Q (M_2/M_1), tag ma
+     0.30417902024493498 Q (M_2/M_1), tag ma
    0.000000000000000     secmass (star 2 mass in solar masses), tag sm
    0.000000000000000     masssum (sum of masses in solar),  tag ms
    0.000000000000000     massdiff (M_1 - M_2 in solar), tag md
@@ -272,19 +272,18 @@ Info:  Teff2 is negative---star 2 will be invisible
 Info:  there will be no accretion disk
 
 fast analytic mode:
- M_1 fixed at 4.300000 solar masses and K_1 fixed at 5.0100 km/sec.
- Q set to 0.396751 and the separation set to 4974.104290 solar radii.
+ K_1 fixed at 3.831787 km/sec. The separation set to 4673.862793 solar radii.
 
 fast analytic mode:
- R_1 fixed at 300.000000 solar radii and R_2 fixed at 1.3000 solar radii.
- ratrad set to 230.769231 and the separation set to 4974.104290 solar radii.
+ R_1 fixed at 300.000000 solar radii and R_2 fixed at 0.1000 solar radii.
+ ratrad set to 3000.000000 and the separation set to 4673.862793 solar radii.
 
 Info:  There is no third light
 
-M1 = 4.30000 M_sun; R1 = 300.00000 R_sun; log(g1) = 0.1173 cgs
-M2 = 1.70603 M_sun; R2 = 0.00000 R_sun; log(g2) = 0.0000 cgs
-P = 16581.426677 d; a1 = 1412.909 R_sun; a2 = 3561.196 R_sun; a = 4974.1043 R_sun
-K1 = 5.0100 km/sec; K2 = 12.6276 km/sec
-V1_rot*sin(i) = 3.4687 km/sec; V2_rot*sin(i) = 0.0000 km/sec
-V1_rot*sin(i) = 3.4687 km/sec; V2_rot*sin(i) = 0.0000 km/sec (scaled by omegas)
-P_rot1 = 4068.509411 d; P_rot2 = 4068.509411 d
+M1 = 3.82530 M_sun; R1 = 300.00000 R_sun; log(g1) = 0.0665 cgs
+M2 = 1.16358 M_sun; R2 = 0.00000 R_sun; log(g2) = 0.0000 cgs
+P = 16571.278237 d; a1 = 1090.104 R_sun; a2 = 3583.759 R_sun; a = 4673.8628 R_sun
+K1 = 3.8318 km/sec; K2 = 12.5971 km/sec
+V1_rot*sin(i) = 3.3302 km/sec; V2_rot*sin(i) = 0.0000 km/sec
+V1_rot*sin(i) = 3.3302 km/sec; V2_rot*sin(i) = 0.0000 km/sec (scaled by omegas)
+P_rot1 = 4237.657524 d; P_rot2 = 4237.657524 d
