@@ -127,14 +127,14 @@
 !
 !  Binary orbit parameters
 !
-  1143.097195000000056   Period (days), tag pe
- 56389.750000000000000   T0 (time of periastron passage), tag T0
+  1141.205150000862432   Period (days), tag pe
+ 56536.276380928626168   T0 (time of periastron passage), tag T0
      0.000000000000000   Tconj (time of primary eclipse), tag Tc
      0.0000000000000     PbpTc (period + Tconj for binary), tag bp
      0.0000000000000     PbmTc (period - Tconj for binary), tag bm
  -99.000000000000        binqTc (slope in P-Tc plane for binary), tag bq
        0.000000000000    Tbinoff (offset in P-Tc plane for binary), tag bt
- 0.021000000000          eccentricity, tag ec
+ 0.000006094261          eccentricity, tag ec
     0.0000000000000      argument of periaston in degrees, tag ar
  0.00000000000000000     e*cos(omega), tag oc
  0.00000000000000000     e*sin(omega), tag os
@@ -143,7 +143,7 @@
    60.4034521579999932   finc (inclination in degrees), tag in
    0.0000000000          Omega_bin (nodal angle of binary in degrees), tag Ob
     6.8870000000000      primK (K-velocity of star 1 in km/sec), tag pk
- 1500.117589             separ (semimajor axis in solar radii), tag se
+  728.034704             separ (semimajor axis in solar radii), tag se
    -2.360000             gamma
  0.0000000               ecosw (phase difference between eclipses) tag dp
 !
@@ -159,7 +159,7 @@
  0.000000000000000       frac1 (fractional radius star 1:  R_1/a), tag q1
  0.000000000000          radfill1 (set to use fill1 in terms of R_eff)
    3.00000000000000000   primmass (star 1 mass in solar masses), tag pm
-   0.0000000             axis_I1 (inclination of rotation axis if ialign>0), tag ai
+  60.4034522             axis_I1 (inclination of rotation axis if ialign>0), tag ai
    0.0000000             axis_beta1 (angle of rotation axis wrt orbit if ialign>0), tag ab
  0.00000000  0.00000000  limb darkening coefficients, filter 1, tag x1, y1
  0.00000000  0.00000000  limb darkening coefficients, filter 2, tag x2, y2
@@ -202,17 +202,17 @@
  0.0000000000000         filldiff, tag sd
   1.3000000000000        secrad (secondary star radius in solar radii), tag sr
  0.000000000000000       frac2 (fractional radius star 2:  R_2/a), tag q2
-     0.0000000000000     ratrad (ratio of star 1 radius to star 2 radius),  tag ra
+    76.9230769230769     ratrad (ratio of star 1 radius to star 2 radius),  tag ra
      0.0000000000000     radsum (sum of radii in solar), tag rs
      0.0000000000000     raddiff (R_1 - R_2  in solar), tag rd
  0.00000000000000        fracsum ((R_1 + R_2)/a), tag fs
  0.00000000000000        fracdiff ((R_1 - R_2)/a), tag fd
  0.000000000000          radfill2 (set to use fill2 in terms of R_eff)
-     3.50877190000000017 Q (M_2/M_1), tag ma
+     0.32520763081746118 Q (M_2/M_1), tag ma
    0.000000000000000     secmass (star 2 mass in solar masses), tag sm
    0.000000000000000     masssum (sum of masses in solar),  tag ms
    0.000000000000000     massdiff (M_1 - M_2 in solar), tag md
-   0.0000000             axis_I2 (inclination of rotation axis if ialign>0), tag bi
+  60.4034522             axis_I2 (inclination of rotation axis if ialign>0), tag bi
    0.0000000             axis_beta2 (angle of rotation axis wrt orbit if ialign>0), tag bb
  0.00000000  0.00000000  limb darkening coefficients, filter 1, tag z1, w1
  0.00000000  0.00000000  limb darkening coefficients, filter 2, tag z2, w2
@@ -273,18 +273,18 @@ Info:  there will be no accretion disk
 
 fast analytic mode:
  M_1 fixed at 3.000000 solar masses and K_1 fixed at 6.8870 km/sec.
- Q set to 0.325335 and the separation set to 728.856805 solar radii.
+ Q set to 0.325206 and the separation set to 728.028700 solar radii.
 
 fast analytic mode:
  R_1 fixed at 100.000000 solar radii and R_2 fixed at 1.3000 solar radii.
- ratrad set to 76.923077 and the separation set to 728.856805 solar radii.
+ ratrad set to 76.923077 and the separation set to 728.028700 solar radii.
 
 Info:  There is no third light
 
 M1 = 3.00000 M_sun; R1 = 100.00000 R_sun; log(g1) = 0.9152 cgs
-M2 = 0.97601 M_sun; R2 = 0.00000 R_sun; log(g2) = 0.0000 cgs
-P = 1143.097195 d; a1 = 178.915 R_sun; a2 = 549.942 R_sun; a = 728.8568 R_sun
-K1 = 6.8870 km/sec; K2 = 21.1689 km/sec
-V1_rot*sin(i) = 3.8586 km/sec; V2_rot*sin(i) = 0.0000 km/sec
-V1_rot*sin(i) = 3.8586 km/sec; V2_rot*sin(i) = 0.0000 km/sec (scaled by omegas)
-P_rot1 = 1140.080457 d; P_rot2 = 1140.080457 d
+M2 = 0.97562 M_sun; R2 = 0.00000 R_sun; log(g2) = 0.0000 cgs
+P = 1141.205150 d; a1 = 178.659 R_sun; a2 = 549.370 R_sun; a = 728.0287 R_sun
+K1 = 6.8870 km/sec; K2 = 21.1773 km/sec
+V1_rot*sin(i) = 3.8548 km/sec; V2_rot*sin(i) = 0.0000 km/sec
+V1_rot*sin(i) = 3.8548 km/sec; V2_rot*sin(i) = 0.0000 km/sec (scaled by omegas)
+P_rot1 = 1141.205150 d; P_rot2 = 1141.205150 d

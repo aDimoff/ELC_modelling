@@ -1,0 +1,14 @@
+GPL Ghostscript 9.56.1 (2022-04-04)
+Copyright (C) 2022 Artifex Software, Inc.  All rights reserved.
+This software is supplied under the GNU AGPLv3 and comes with NO WARRANTY:
+see the file COPYING for details.
+
+   **** Warning: BoundingBox values are invalid and will be ignored: 'Error: /undefined in /--EPSBoundingBoxProcess--
+Operand stack:
+   --nostringval--   (%%BoundingBox: \(atend\))   --dict:1/2(ro)(G)--   --nostringval--   --nostringval--   (%%BoundingBox: \(atend\))   1
+Execution stack:
+   %interp_exit   .runexec2   --nostringval--   EPSBoundingBoxProcess   --nostringval--   2   %stopped_push   --nostringval--   EPSBoundingBoxProcess   EPSBoundingBoxProcess   false   1   %stopped_push   1990   1   3   %oparray_pop   1989   1   3   %oparray_pop   1988   1   3   %oparray_pop   EPSBoundingBoxProcess   1977   1   3   %oparray_pop   1833   1   3   %oparray_pop   --nostringval--   %errorexec_pop   .runexec2   --nostringval--   EPSBoundingBoxProcess   --nostringval--   2   %stopped_push   --nostringval--   %ztokenexec_continue   (scanner state)   EPSBoundingBoxProcess   EPSBoundingBoxProcess   EPSBoundingBoxProcess   EPSBoundingBoxProcess   1986   8   3   %oparray_pop   EPSBoundingBoxProcess   EPSBoundingBoxProcess
+Dictionary stack:
+   --dict:769/1123(ro)(G)--   --dict:0/20(G)--   --dict:79/200(L)--
+Current allocation mode is local
+Current file position is 144

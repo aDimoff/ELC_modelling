@@ -1,0 +1,1 @@
+python Plot_RV_data.py HD215336 HD215336_RVs.txt; open HD215336RV_model.png

@@ -1,0 +1,9 @@
+find . -name "demcmc_recover*" -delete
+find . -name "demcmc_starparm*" -delete
+find . -name "ELC.100*" -delete
+find . -name "demcmc_fitparm*" -delete
+find . -name "demcmc_chi*" -delete
+find . -name "chi.100*" -delete
+find . -name "ELCparm.*" -delete
+find . -name "gridELC.*" -delete
+find . -name "generation.*" -delete

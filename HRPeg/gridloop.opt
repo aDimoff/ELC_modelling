@@ -1,0 +1,22 @@
+fakeU
+none
+none
+none
+none
+none
+none
+none
+HRPeg_RVs.dat
+none
+none
+none
+none
+4
+ec
+pe
+pk
+T0
+	0.00	 0.3	  12	ec	1
+	100.	 2000.	  10000	pe	2
+	1.	 20.	  5	pk	3
+	23000.	 24000.	  5     T0      4
